@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS Nexcore;
+USE Nexcore;
+
+CREATE TABLE IF NOT EXISTS Contact_data (
+    UserID INT PRIMARY KEY AUTO_INCREMENT,
+    UserName TEXT NOT NULL,
+    Email TEXT,
+    Message TEXT NOT NULL
+);
+
+
+
+SELECT * FROM Contact_data;
