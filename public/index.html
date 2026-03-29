@@ -45,28 +45,63 @@
         </div>
     </section>
 
-    <section class="about-section" id="about">
-        <div class="glass-container">
-            <div class="card abt-card">
-                <h2 data-key="abt_title">About Us</h2>
-                <p class="abt_p" ><span></span>At Nex<span class="abt-p-span">Core</span> Solutions, we believe that websits is not just pages and infomations, websites must be fun & interactive, in nexcore solutions we don't build websites, we bulid <span style="color: blue; font-size: 1.3rem; font-weight: 700;">Experiences</span></p>
+    <section class="about-modern" id="about">
+        <div class="about-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="about-card reveal">
+                <div class="about-grid">
+                    <!-- Left Side: Content -->
+                    <div class="about-left">
+                        <span class="badge" data-key="abt_badge">About Us</span>
+                        <h2 class="section-title" data-key="abt_title">We build modern, scalable web experiences</h2>
+                        <p class="section-desc" data-key="abt_desc">
+                            At Nexcore Solutions, we bridge the gap between technical complexity and creative excellence. 
+                            We specialize in high-performance architectures and intuitive design systems that ensure your 
+                            brand doesn't just exist online, but thrives and scales effectively.
+                        </p>
+                        <a href="#projects" class="learn-more-btn">
+                            <span>Learn More</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+
+                    <!-- Right Side: Visuals -->
+                    <div class="about-right">
+                        <div class="image-stack">
+                            <div class="img-box main-img">
+                                <img src="\asset\about1.jpeg" alt="Development Workspace">
+                            </div>
+                            <div class="img-box accent-img">
+                                <img src="\asset\about2.jpeg" alt="Team Collaboration">
+                            </div>
+                            <div class="abstract-element"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="about-stats">
+                    <div class="stat-item"><h3 class="stat-num">100+</h3><p>Projects Completed</p></div>
+                    <div class="stat-item"><h3 class="stat-num">50+</h3><p>Clients Worldwide</p></div>
+                    <div class="stat-item"><h3 class="stat-num">99%</h3><p>Client Satisfaction</p></div>
+                    <div class="stat-item"><h3 class="stat-num">5+</h3><p>Years Experience</p></div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="projects" id="projects">
-        <div class="projects-cards">
-            <div class="card">
-
-            </div>
-        </div>
     </section>
 
     <section class="contact-section fade-in" id="contact">
-        
         <div class="contact-wrapper">
-            <h4>Contact Us</h4>
-        <h2 class="info-title">Get in touch with us</h2>
+            <div class="contact-header">
+                <h4>Contact Us</h4>
+                <h2 class="info-title">Get in touch with us</h2>
+            </div>
             <div class="contact-grid">
                 <!-- Left: Form Section -->
                 <div class="contact-form-container">
@@ -78,7 +113,7 @@
                         <div class="form-group">
                             <label for="email">Email Address</label>
                             <input type="email" id="email" name="email" placeholder="john@example.com" required>
-                            <span class="error-msg" id="emailError">Please enter a valid email.</span>
+                        
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
